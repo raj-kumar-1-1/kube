@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Build your Docker image
-                    bat 'docker build -t my-koti .'
+                    bat 'docker build -t my-krishna .'
                 }
             }
         }
